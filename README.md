@@ -6,6 +6,7 @@ The idea behind the project is for an online editor and play system for users ac
 - [ ] User system (used for creating and saving last point in story)
 - [ ] Story storage system (having to decide between MongoDB, MySQL, or JSON), will discuss the pros and cons
     - MySQL
+        - 👍 Comes with just about all webhosts for free.
         - 👍 Extremely common, comes free with most webhosts.
         - 👎 However becomes slow with large databases.
     - MongoDB
