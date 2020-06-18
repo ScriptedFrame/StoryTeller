@@ -4,8 +4,17 @@ The idea behind the project is for an online editor and play system for users ac
 
 ## Todo
 - [ ] User system (used for creating and saving last point in story)
-- [ ] Story storage system (having to decide between MongoDB and MySQL)
-    - May end up doing both, as MySQL is free with almost all webhosts, therefor cheaper and easier to access for development
+- [ ] Story storage system (having to decide between MongoDB, MySQL, or JSON), will discuss the pros and cons
+    - MySQL
+        - 👍 Extremely common, comes free with most webhosts.
+        - 👎 However becomes slow with large databases.
+    - MongoDB
+        - 👍 Relatively faster than MySQL when handling large databases.
+        - 👎 You need to pay a company or own a VPS to host a MongoDB instance, less cost efficient
+    - JSON File storage
+        - 👍 Faster fetch times usually than MongoDB and MySQL
+        - 👎 Would have to be chunked or split into each option for speed and performance consideration
+        - 👎 Less easy to make a system to fetch from multiple storage centers
 - [ ] Possible private story mode (allowing people to make private stories [such as for Patreon(s) and other such])
 
 #### Need help from the community
@@ -41,7 +50,7 @@ The idea behind the project is for an online editor and play system for users ac
       {
         "desc": "You pick up the knife",
         "text": "You picked up the knife, woke up the guard, and threatened them to let you out",
-        "options": [/*rinse and repeat*/]
+        "options": ["/*repeat again and again as needed*/"]
       }
     ]
   }
