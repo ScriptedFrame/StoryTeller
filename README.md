@@ -2,20 +2,34 @@
 This project was sparked from a love of rpg, visual novels, choice adventures, and more.
 The idea behind the project is for an online editor and play system for users across the world to build their stories, decision trees, inventories, and more.
 
+<!--
+###### Cute badges
+![Release version](https://img.shields.io/github/v/release/ScriptedFrame/StoryTeller?style=for-the-badge)
+![PHP 7+](https://img.shields.io/badge/PHP-%5E7.0-blue?style=for-the-badge)
+[![Website](https://img.shields.io/website?style=for-the-badge&url=https://website.co)](https://website.co)
+
 ###### Consider supporting the primary developer from our team on this project
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B11U1AM)
+-->
+
+###### Things we need before launch
+- [ ] To be at least release v(something)
+- [ ] Domain
+- [ ] Webhosting
+- [ ] Story storage (ample amount)
+- [ ] Logo
 
 ## Todo
 - [ ] User system (used for creating and saving last point in story)
 - [ ] Story storage system (having to decide between MongoDB, MySQL, or JSON), will discuss the pros and cons
-    - MySQL
+    - [ ] MySQL
         - 👍 Comes with just about all webhosts for free.
         - 👍 Extremely common, comes free with most webhosts.
         - 👎 However becomes slow with large databases.
-    - MongoDB
+    - [ ] MongoDB
         - 👍 Relatively faster than MySQL when handling large databases.
         - 👎 You need to pay a company or own a VPS to host a MongoDB instance, less cost efficient
-    - JSON File storage
+    - [ ] JSON File storage
         - 👍 Faster fetch times usually than MongoDB and MySQL
         - 👎 Would have to be chunked or split into each option for speed and performance consideration
         - 👎 Less easy to make a system to fetch from multiple storage centers
